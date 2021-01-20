@@ -13,7 +13,7 @@ let package = Package(
             targets: ["RealmWrapper"])
     ],
     dependencies: [
-        .package(name: "Realm", url: "https://github.com/realm/realm-cocoa.git", .exact("5.0.0")
+        .package(name: "Realm", url: "https://github.com/realm/realm-cocoa.git", .exact("5.0.0"))
     ],
     targets: [
         .target(
