@@ -1,4 +1,5 @@
 import RealmSwift
+import UIKit
 
 public typealias RealmQueryChanged = ([IndexPath]) -> Void
 
