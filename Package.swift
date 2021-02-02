@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .target(
             name: "RealmWrapper",
-            path: "Sources",
-            dependencies: ["RealmSwift"]
+            dependencies: ["RealmSwift"],
+            path: "Sources"
         ),
     ]
 )
